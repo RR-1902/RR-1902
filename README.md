@@ -104,6 +104,7 @@ A multi-role full-stack platform (Admin · Faculty · Student) with a glassmorph
 ![Whisper](https://img.shields.io/badge/Whisper-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-RAG-blueviolet?style=for-the-badge)
 ![NLTK](https://img.shields.io/badge/NLTK-NLP-green?style=for-the-badge)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
 **Tools**
 
