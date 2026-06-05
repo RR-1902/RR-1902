@@ -101,7 +101,7 @@ A multi-role full-stack platform (Admin · Faculty · Student) with a glassmorph
 
 **AI / ML**
 
-![OpenAI](https://img.shields.io/badge/Whisper-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Whisper](https://img.shields.io/badge/Whisper-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-RAG-blueviolet?style=for-the-badge)
 ![NLTK](https://img.shields.io/badge/NLTK-NLP-green?style=for-the-badge)
 
@@ -115,36 +115,31 @@ A multi-role full-stack platform (Admin · Faculty · Student) with a glassmorph
 
 ---
 
-## 📊 GitHub Stats
+## 📊 Coding Profiles
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=RR-1902&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RR-1902&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com/?user=RR-1902&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
-
-</div>
-
-<div align="center">
-
-[![Rohith's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=RR-1902&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+| Platform | Handle | What's There |
+|----------|--------|-------------|
+| 🟡 **LeetCode** | [TheGuywithScar](https://leetcode.com/u/TheGuywithScar/) | DSA · Striver A2Z grind |
+| 🟣 **Codolio** | [TheGuywithScar](https://codolio.com/profile/TheGuywithScar) | Full coding portfolio & stats |
+| 🔵 **LinkedIn** | [rohith-rajan-v](https://www.linkedin.com/in/rohith-rajan-v) | Professional network |
 
 </div>
 
 ---
 
-## 🐍 Contribution Snake
+## 🎯 2026 Roadmap
 
-<div align="center">
-
-![snake gif](https://github.com/RR-1902/RR-1902/blob/output/github-contribution-grid-snake-dark.svg)
-
-</div>
+```text
+✅ SpeakRightAI          →  AI + Whisper + Phoneme NLP + Docker
+✅ CampusPulse           →  Full-Stack + Multi-role + Analytics
+🔄 Striver A2Z DSA       →  In progress (C++)
+⏳ RAG Application       →  Upcoming
+⏳ System Design Basics  →  Upcoming
+⏳ Cloud Fundamentals    →  Upcoming
+⏳ Internship / Placement →  Target: Late 2026
+```
 
 ---
 
