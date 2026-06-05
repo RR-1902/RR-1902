@@ -115,6 +115,29 @@ A multi-role full-stack platform (Admin · Faculty · Student) with a glassmorph
 
 ---
 
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=RR-1902&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RR-1902&layout=compact&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com/?user=RR-1902&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
+
+</div>
+
+<div align="center">
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=RR-1902&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>
+
+---
+
 ## 📊 Coding Profiles
 
 <div align="center">
@@ -143,6 +166,7 @@ A multi-role full-stack platform (Admin · Faculty · Student) with a glassmorph
 
 ---
 
+
 ## 📫 Let's Connect
 
 <div align="center">
@@ -156,6 +180,16 @@ I'm open to collaborations, interesting projects, internship conversations, or j
 <br/>
 
 <img src="https://komarev.com/ghpvc/?username=RR-1902&color=6C47FF&style=for-the-badge&label=PROFILE+VIEWS" />
+
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/RR-1902/RR-1902/snake-output/snake.svg" alt="Snake animation" />
 
 </div>
 
