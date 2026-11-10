@@ -1,190 +1,113 @@
-<div align="center">
+<img src="assets/bench-sheet.svg" width="840" alt="Rohith Rajan V, software engineer. AI systems, Java underneath. AI and ML: SpeakRightAI, Welp.Ai, CancerDetect, TEKTON. Systems: Aegis, CampusPulse, Co-op. In design: Asclepius, Pantheon.">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Rohith%20Rajan%20V&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Building%20AI%20Products%20%C2%B7%20MERN%20Full-Stack%20%C2%B7%20DSA%20Grinder&descAlignY=55&descSize=16" />
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1000&color=6C47FF&center=true&vCenter=true&random=false&width=600&lines=3rd+Year+CS+%40+SRM+Ramapuram;AI+%2B+Full-Stack+Developer;Building+things+that+actually+matter;Striver+A2Z+DSA+in+progress+%F0%9F%94%A5)](https://git.io/typing-svg)
-
-<br/>
+I'm a software engineer in my third year of B.Tech CSE (AI/ML), graduating in 2028. My focus is AI engineering. Java is my main backend language, and I want enough depth in it to work on older systems too.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rohith-rajan-v)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/TheGuywithScar/)
 [![Codolio](https://img.shields.io/badge/Codolio-6C47FF?style=for-the-badge&logo=codeforces&logoColor=white)](https://codolio.com/profile/TheGuywithScar)
+[![Portfolio](https://img.shields.io/badge/Portfolio-26231F?style=for-the-badge)](https://rohithrajanv.netlify.app)
 
-</div>
+## AI and ML
 
----
+### [SpeakRightAI](https://github.com/RR-1902/speakrightAI)
 
-## 👋 About Me
+A pronunciation coach. Whisper transcribes what you say, CMUdict breaks the words into phonemes, and a scoring engine compares each phoneme you spoke with the expected one. You get feedback per sound, and your sessions are tracked so you can see progress. The whole app runs in Docker.
 
-I'm a Computer Science student at **SRM Ramapuram** who builds at the intersection of **AI/ML**, **full-stack development**, and **real problem solving**. I don't just learn technologies — I ship products with them.
+Built with FastAPI, Whisper, NLTK, React and Docker.
 
-Currently deep in the Striver A2Z DSA grind while simultaneously building production-ready applications powered by NLP, RAG pipelines, and modern web stacks.
+### [Welp.Ai](https://github.com/RR-1902/welp-ai)
 
-```text
-🔭 Currently Building   →  AI-powered web applications
-📚 Currently Grinding   →  Striver A2Z DSA Sheet (C++)
-🧠 Exploring            →  RAG Systems · Cloud · System Design
-🎯 2026 Goal            →  Placement-ready Software Engineer
-📍 Location             →  Chennai, India
-```
+A mobile interview simulator. You upload a resume and answer by voice or text. The follow-up questions come from what your resume says, and at the end you get a score and a PDF report you can keep.
 
----
+Built with Flutter, Express and OpenRouter.
 
-## 🚀 Featured Projects
+### [CancerDetect](https://github.com/RR-1902/cancerdetect)
 
-<table>
-<tr>
-<td width="50%" valign="top">
+A histopathology image classifier. It uses MobileNetV2 transfer learning to flag cancer in tissue images and gives a risk score through a Flask web app. It is a learning project and is not a diagnostic tool.
 
-### 🎤 SpeakRightAI
-**Real-time AI Pronunciation Coach**
+Built with Python and Flask.
 
-A fully dockerized AI application that analyzes speech at the **phoneme level** — not just text matching. Uses OpenAI Whisper for transcription, CMUdict for phoneme extraction, and a custom scoring engine to give granular pronunciation feedback with session-based progress tracking.
+### SANGAM
 
-**What makes it different:** Most pronunciation apps compare text. SpeakRightAI compares *how* you say words at the phoneme level.
+A prototype for Smart India Hackathon 2026. Complaints about one institution arrive at different offices and in different languages. SANGAM matches them, puts them on one timeline, and blocks closing a case while a linked one is still open. It works in English, Hindi and Tamil. On synthetic data the matcher reaches precision 86% and recall 83%, against an F1 of 25% for rules alone. The code is not public yet.
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Whisper](https://img.shields.io/badge/Whisper-412991?style=flat-square&logo=openai&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![NLTK](https://img.shields.io/badge/NLTK-NLP-green?style=flat-square)
+Built with Python.
 
-[![Repo](https://img.shields.io/badge/View%20Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/RR-1902/speakrightAI)
+### TEKTON
 
-</td>
-<td width="50%" valign="top">
+A seven-day earthquake outlook for India and its neighbours. It forecasts odds and is not an early warning system. On untouched test data it beats the long-run-rate baseline by a small margin, PR-AUC 0.151 against 0.131. The code is not public yet.
 
-### 🏫 CampusPulse
-**Premium Campus Management Platform**
+Built with Python, XGBoost and FastAPI.
 
-A multi-role full-stack platform (Admin · Faculty · Student) with a glassmorphism dashboard, JWT auth, live attendance workflows, analytics powered by Recharts, placement notices, and a complaint portal — all in one system.
+## Systems
 
-**What makes it different:** Not a CRUD app. Role-based access, real analytics, and a production-grade architecture with FastAPI + Next.js + SQLAlchemy.
+### [Aegis](https://github.com/RR-1902/aegis)
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Recharts](https://img.shields.io/badge/Recharts-Charts-orange?style=flat-square)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+A network intrusion detection system. It captures packets, parses Ethernet, IPv4, TCP, UDP and ICMP, groups packets into flows, applies deterministic rules and scores the combined evidence. Responses are simulated only, and every security event is stored in SQLite.
 
-[![Repo](https://img.shields.io/badge/View%20Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/RR-1902/attendance-campuspulse)
+Built with Python, Scapy and SQLite.
 
-</td>
-</tr>
-</table>
+### [CampusPulse](https://github.com/RR-1902/attendance-campuspulse)
 
----
+A campus management platform with separate views for admins, faculty and students. It handles sign-in with JWT, attendance workflows, analytics charts, placement notices and a complaint portal.
 
-## 🛠️ Tech Stack
+Built with Next.js, TypeScript, FastAPI and SQLAlchemy.
 
-<div align="center">
+### [Co-op](https://github.com/RR-1902/Co-op)
 
-**Languages**
+A marketplace for cooperative workforces with five roles, built for Smart India Hackathon 2026.
 
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+Built with React, TypeScript and Supabase.
+
+## In design
+
+Pantheon is a mentor tool for my college tech club. I will measure its retrieval against plain keyword search and publish the results either way.
+
+Asclepius is a Raft-replicated key-value store in Java. A chaos harness will kill nodes and cut the network while a checker confirms that no acknowledged write was lost.
+
+## Tech stack
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
-**Frontend**
-
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-
-**Backend & Database**
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-
-**AI / ML**
 
 ![Whisper](https://img.shields.io/badge/Whisper-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-RAG-blueviolet?style=for-the-badge)
 ![NLTK](https://img.shields.io/badge/NLTK-NLP-green?style=for-the-badge)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
-**Tools**
-
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
-</div>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
+## GitHub activity
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=RR-1902&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
 
-</div>
-
-<div align="center">
-
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=RR-1902&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
-</div>
+<img src="https://raw.githubusercontent.com/RR-1902/RR-1902/snake-output/snake.svg" alt="Contribution graph, animated">
 
----
+## How I work
 
-## 📊 Coding Profiles
+I compare every result with a baseline, and when mine doesn't beat it, I say so. I note which parts of a project were built with AI assistance. I call something a prototype, a pilot or production according to what it is today.
 
-<div align="center">
-
-| Platform | Handle | What's There |
-|----------|--------|-------------|
-| 🟡 **LeetCode** | [TheGuywithScar](https://leetcode.com/u/TheGuywithScar/) | DSA · Striver A2Z grind |
-| 🟣 **Codolio** | [TheGuywithScar](https://codolio.com/profile/TheGuywithScar) | Full coding portfolio & stats |
-| 🔵 **LinkedIn** | [rohith-rajan-v](https://www.linkedin.com/in/rohith-rajan-v) | Professional network |
-
-</div>
-
----
-
-## 🎯 2026 Roadmap
+I'm also Technical Head of SlugNPlug, a student tech club.
 
 ```text
-✅ SpeakRightAI          →  AI + Whisper + Phoneme NLP + Docker
-✅ CampusPulse           →  Full-Stack + Multi-role + Analytics
-🔄 Striver A2Z DSA       →  In progress (C++)
-⏳ RAG Application       →  Upcoming
-⏳ System Design Basics  →  Upcoming
-⏳ Cloud Fundamentals    →  Upcoming
-⏳ Internship / Placement →  Target: Late 2026
+████   ███  █   █ ███ █████ █   █
+█   █ █   █ █   █  █    █   █   █
+████  █   █ █████  █    █   █████
+█  █  █   █ █   █  █    █   █   █
+█   █  ███  █   █ ███   █   █   █
 ```
-
----
-
-
-## 📫 Let's Connect
-
-<div align="center">
-
-I'm open to collaborations, interesting projects, internship conversations, or just a good tech discussion.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rohith%20Rajan%20V-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rohith-rajan-v)
-[![LeetCode](https://img.shields.io/badge/LeetCode-TheGuywithScar-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/TheGuywithScar/)
-[![Codolio](https://img.shields.io/badge/Codolio-TheGuywithScar-6C47FF?style=for-the-badge)](https://codolio.com/profile/TheGuywithScar)
-
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=RR-1902&color=6C47FF&style=for-the-badge&label=PROFILE+VIEWS" />
-
-</div>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/RR-1902/RR-1902/snake-output/snake.svg" alt="Snake animation" />
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" />
