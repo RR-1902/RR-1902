@@ -1,113 +1,55 @@
-<img src="assets/bench-sheet.svg" width="840" alt="Rohith Rajan V, software engineer. AI systems, Java underneath. AI and ML: SpeakRightAI, Welp.Ai, CancerDetect, TEKTON. Systems: Aegis, CampusPulse, Co-op. In design: Asclepius, Pantheon.">
+<p align="center">
+  <img src="assets/header.svg" width="840" alt="Rohith Rajan V, catalogue of works. Software engineer, AI systems, Java underneath. Ten works: eight built, two in design.">
+</p>
 
-I'm a software engineer in my third year of B.Tech CSE (AI/ML), graduating in 2028. My focus is AI engineering. Java is my main backend language, and I want enough depth in it to work on older systems too.
+<p align="center">
+  <a href="https://github.com/RR-1902/speakrightAI"><img src="assets/plate-01.svg" width="840" alt="Plate 01, SpeakRightAI. Checks every sound you say, not only the words. FastAPI, Whisper, NLTK, React, Docker."></a>
+</p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rohith-rajan-v)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/TheGuywithScar/)
-[![Codolio](https://img.shields.io/badge/Codolio-6C47FF?style=for-the-badge&logo=codeforces&logoColor=white)](https://codolio.com/profile/TheGuywithScar)
-[![Portfolio](https://img.shields.io/badge/Portfolio-26231F?style=for-the-badge)](https://rohithrajanv.netlify.app)
+<p align="center">
+  <img src="assets/plate-02.svg" width="840" alt="Plate 02, SANGAM. Links complaints from three offices and three languages into one case file. F1 85 percent against 25 percent for rules alone, on synthetic data. Code not public yet.">
+</p>
 
-## AI and ML
+<p align="center">
+  <a href="https://github.com/RR-1902/welp-ai"><img src="assets/plate-03.svg" width="840" alt="Plate 03, Welp.Ai. An interview partner that has read your resume. Flutter, Express, OpenRouter."></a>
+</p>
 
-### [SpeakRightAI](https://github.com/RR-1902/speakrightAI)
+<p align="center">
+  <a href="https://github.com/RR-1902/cancerdetect"><img src="assets/plate-04.svg" width="840" alt="Plate 04, CancerDetect. Reads tissue images and returns a risk score. MobileNetV2 and Flask. Not a diagnostic tool."></a>
+</p>
 
-A pronunciation coach. Whisper transcribes what you say, CMUdict breaks the words into phonemes, and a scoring engine compares each phoneme you spoke with the expected one. You get feedback per sound, and your sessions are tracked so you can see progress. The whole app runs in Docker.
+<p align="center">
+  <img src="assets/plate-05.svg" width="840" alt="Plate 05, TEKTON. Earthquake odds for the week ahead. PR-AUC 0.151 against a long-run-rate baseline of 0.131 on untouched test data. Code not public yet.">
+</p>
 
-Built with FastAPI, Whisper, NLTK, React and Docker.
+<p align="center">
+  <a href="https://github.com/RR-1902/aegis"><img src="assets/plate-06.svg" width="840" alt="Plate 06, Aegis. Network intrusion detection: capture, flows, rules, risk score, simulated responses. Python, Scapy, SQLite."></a>
+</p>
 
-### [Welp.Ai](https://github.com/RR-1902/welp-ai)
+<p align="center">
+  <a href="https://github.com/RR-1902/attendance-campuspulse"><img src="assets/plate-07.svg" width="840" alt="Plate 07, CampusPulse. One campus, three roles, one attendance record. Next.js, FastAPI, SQLAlchemy."></a>
+</p>
 
-A mobile interview simulator. You upload a resume and answer by voice or text. The follow-up questions come from what your resume says, and at the end you get a score and a PDF report you can keep.
+<p align="center">
+  <a href="https://github.com/RR-1902/Co-op"><img src="assets/plate-08.svg" width="840" alt="Plate 08, Co-op. Five roles, one cooperative marketplace, built for Smart India Hackathon 2026. React, TypeScript, Supabase."></a>
+</p>
 
-Built with Flutter, Express and OpenRouter.
+<p align="center">
+  <img src="assets/plate-09.svg" width="840" alt="Plate 09, Asclepius, in design. A Raft-replicated key-value store in Java, to be tested with a chaos harness.">
+</p>
 
-### [CancerDetect](https://github.com/RR-1902/cancerdetect)
+<p align="center">
+  <img src="assets/plate-10.svg" width="840" alt="Plate 10, Pantheon, in design. A mentor tool for a college tech club, with retrieval measured against BM25.">
+</p>
 
-A histopathology image classifier. It uses MobileNetV2 transfer learning to flag cancer in tissue images and gives a risk score through a Flask web app. It is a learning project and is not a diagnostic tool.
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=RR-1902&background=FBF6EA&border=B8954A&stroke=E2D3AE&ring=8C6A1F&fire=A3441B&currStreakNum=3E2E0C&sideNums=3E2E0C&currStreakLabel=8C6A1F&sideLabels=8E8574&dates=8E8574" width="840" alt="GitHub contribution streak">
+</p>
 
-Built with Python and Flask.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/RR-1902/RR-1902/snake-output/snake.svg" width="840" alt="Contribution graph, animated">
+</p>
 
-### SANGAM
-
-A prototype for Smart India Hackathon 2026. Complaints about one institution arrive at different offices and in different languages. SANGAM matches them, puts them on one timeline, and blocks closing a case while a linked one is still open. It works in English, Hindi and Tamil. On synthetic data the matcher reaches precision 86% and recall 83%, against an F1 of 25% for rules alone. The code is not public yet.
-
-Built with Python.
-
-### TEKTON
-
-A seven-day earthquake outlook for India and its neighbours. It forecasts odds and is not an early warning system. On untouched test data it beats the long-run-rate baseline by a small margin, PR-AUC 0.151 against 0.131. The code is not public yet.
-
-Built with Python, XGBoost and FastAPI.
-
-## Systems
-
-### [Aegis](https://github.com/RR-1902/aegis)
-
-A network intrusion detection system. It captures packets, parses Ethernet, IPv4, TCP, UDP and ICMP, groups packets into flows, applies deterministic rules and scores the combined evidence. Responses are simulated only, and every security event is stored in SQLite.
-
-Built with Python, Scapy and SQLite.
-
-### [CampusPulse](https://github.com/RR-1902/attendance-campuspulse)
-
-A campus management platform with separate views for admins, faculty and students. It handles sign-in with JWT, attendance workflows, analytics charts, placement notices and a complaint portal.
-
-Built with Next.js, TypeScript, FastAPI and SQLAlchemy.
-
-### [Co-op](https://github.com/RR-1902/Co-op)
-
-A marketplace for cooperative workforces with five roles, built for Smart India Hackathon 2026.
-
-Built with React, TypeScript and Supabase.
-
-## In design
-
-Pantheon is a mentor tool for my college tech club. I will measure its retrieval against plain keyword search and publish the results either way.
-
-Asclepius is a Raft-replicated key-value store in Java. A chaos harness will kill nodes and cut the network while a checker confirms that no acknowledged write was lost.
-
-## Tech stack
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-
-![Whisper](https://img.shields.io/badge/Whisper-412991?style=for-the-badge&logo=openai&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-RAG-blueviolet?style=for-the-badge)
-![NLTK](https://img.shields.io/badge/NLTK-NLP-green?style=for-the-badge)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-
-## GitHub activity
-
-[![GitHub Streak](https://streak-stats.demolab.com/?user=RR-1902&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=RR-1902&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-<img src="https://raw.githubusercontent.com/RR-1902/RR-1902/snake-output/snake.svg" alt="Contribution graph, animated">
-
-## How I work
-
-I compare every result with a baseline, and when mine doesn't beat it, I say so. I note which parts of a project were built with AI assistance. I call something a prototype, a pilot or production according to what it is today.
-
-I'm also Technical Head of SlugNPlug, a student tech club.
-
-```text
-████   ███  █   █ ███ █████ █   █
-█   █ █   █ █   █  █    █   █   █
-████  █   █ █████  █    █   █████
-█  █  █   █ █   █  █    █   █   █
-█   █  ███  █   █ ███   █   █   █
-```
+<p align="center">
+  <img src="assets/colophon.svg" width="840" alt="Colophon. Thank you for visiting. Stack, references and links.">
+</p>
